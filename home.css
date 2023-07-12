@@ -1,0 +1,122 @@
+.container{
+    background: url('background4.png');
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: -1;
+}
+.title{
+    font-family:  'Luckiest Guy', cursive;
+    font-size: 4.2vw;
+    color: rgb(235, 146, 119);
+    border-color: rgb(226, 148, 58);
+    text-align: center;
+   position: relative;
+   margin: -10px;   
+}
+.subtitle{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(235, 174, 61);
+    margin: -10px;
+}
+.sdg{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 15px; ;
+    text-align: center;
+    color: rgb(151, 105, 45);
+}
+.sdgstatement{
+    font-family:'M PLUS Rounded 1c', sans-serif ;
+    color: rgb(85, 65, 36);
+    text-align: center;
+    font-size: 15px;
+}
+.topleft{
+   padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 0;
+    right: 0px;
+    width: 10px;
+    height:20px;
+    
+}
+.topright{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position:absolute;
+    top: 0;
+    right: 0px;
+    width: 30px;
+    height:30px;
+    
+}
+.footer{
+    font-family:'M PLUS Rounded 1c', sans-serif ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.button-div {
+   display: flex;
+    margin: auto;
+    margin-top: 500px;
+    width: 300px;
+    height: 50px;
+    border: 10px solid rgb(241, 179, 213);
+    background-color: #f08710;
+    top: 80%; 
+    border-radius: 2px;
+    padding: 2px 
+    
+
+}
+.signup-button {
+    align-items: center;
+    font-family:'M PLUS Rounded 1c', sans-serif ;
+    width: 150px;
+    height: 50px;
+    margin-right: 1px;
+    border: rgb(243, 73, 158);
+    border-radius: 1px;
+    background-color: #e7cdaf;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login-button {
+    align-items: center;
+    font-family:'M PLUS Rounded 1c', sans-serif ;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(2, 1, 0);
+    background-color: #f0c99c;
+    cursor: pointer
+}
+
+.login-button:hover {
+    background-color: #eb9fcbdb
+}
+
+.signup-button:hover {
+    background-color:  #eb9fcbdb
+}
+img {
+    max-width:100%;
+            height:auto;
+}

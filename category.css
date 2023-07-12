@@ -1,0 +1,118 @@
+.container{
+    background: url('background4.png');
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: -1;
+}
+.title{
+    font-family:  'Luckiest Guy', cursive;
+    font-size: 50px;
+    color: rgb(235, 146, 119);
+    border-color: rgb(226, 148, 58);
+    text-align: center;
+   position: relative;
+   margin: -10px;
+} 
+ /* .topleft{
+     padding-top: 1;
+    padding-left: 1em;
+    padding-right: 1em; 
+    top: 8px;
+    left: 16px;
+    width: auto;
+    height:auto;
+    position:relative;
+} */
+
+
+.container1{
+   
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ 
+ align-items: center;
+}
+/* .container1 :first-child
+{
+    align-self: flex-start;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+  border:  2px solid rgb(139, 9, 9);
+  background-color: rgb(238, 180, 142);
+  padding: 20px;
+  margin: 10px;
+} */
+.box
+{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    box-shadow:rgb(211, 208, 9);
+  border:  2px solid rgb(139, 9, 9);
+  background-color: rgb(238, 180, 142);
+  padding: 5px;
+  margin-left: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-family:'Luckiest Guy', cursive;
+  color: rgb(rgba(163, 18, 18, 0.719)) ;
+}
+.line
+{
+    background-color: rgb(126, 46, 1);
+    height: 1px;
+    width: 200px;
+}
+ 
+
+.button{
+    display: flex;
+    margin: auto;
+    margin-top: 450px;
+    margin-bottom: auto;
+    /* display: flex;
+    margin:auto;
+    margin-top: 100px; */
+    width: 400px;
+    height: 50px;
+    border: 10px solid rgb(241, 179, 213);
+    background-color: #f08710;
+    top: 70%; 
+    border-radius: 1px;
+    padding: 2px 
+}
+.file
+{
+    align-items: center;
+    font-family:'M PLUS Rounded 1c', sans-serif ;
+    width: 220px;
+    height: 50px;
+    margin-right: 2px;
+    border: rgb(243, 73, 158);
+    border-radius: 5px;
+    background-color: #e7cdaf;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.submit
+{
+    align-items: center;
+    font-family:'M PLUS Rounded 1c', sans-serif ;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(2, 1, 0);
+    background-color: #f0c99c;
+    cursor: pointer
+}
